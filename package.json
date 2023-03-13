@@ -1,5 +1,5 @@
 {
-  "name": "next-js-backend",
+  "name": "dj-events-backend",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -9,22 +9,32 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.7.1",
-    "@strapi/plugin-users-permissions": "4.7.1",
-    "@strapi/plugin-i18n": "4.7.1",
-    "better-sqlite3": "8.0.1"
+    "knex": "0.21.18",
+    "pg": "^8.6.0",
+    "pg-connection-string": "^2.4.0",
+    "slugify": "^1.5.0",
+    "sqlite3": "5.0.0",
+    "strapi": "3.5.4",
+    "strapi-admin": "3.5.4",
+    "strapi-connector-bookshelf": "3.5.4",
+    "strapi-plugin-content-manager": "3.5.4",
+    "strapi-plugin-content-type-builder": "3.5.4",
+    "strapi-plugin-email": "3.5.4",
+    "strapi-plugin-upload": "3.5.4",
+    "strapi-plugin-users-permissions": "3.5.4",
+    "strapi-provider-upload-cloudinary": "^3.5.4",
+    "strapi-utils": "3.5.4"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "5638d7b1-0a06-43e8-a1ed-1377a6e74c06"
+    "uuid": "7fc1bb2f-9215-4357-b5c8-556770186f21"
   },
   "engines": {
-    "node": ">=14.19.1 <=18.x.x",
-    "npm": ">=6.0.0"
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": "^6.0.0"
   },
   "license": "MIT"
 }

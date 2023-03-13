@@ -11,6 +11,10 @@ Icon
 ._*
 
 
+.vscode
+yarn.lock
+package-lock.json
+
 ############################
 # Linux
 ############################
@@ -110,6 +114,5 @@ coverage
 license.txt
 exports
 *.cache
-dist
 build
 .strapi-updater.json
